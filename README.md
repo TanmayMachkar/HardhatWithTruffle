@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+## Testing a smart contract using hardhat along with truffle
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Makes use of the following libraries and tools:
 
-Try running some of the following tasks:
+	- Ganache
+	- Mocha with contract() function
+	- Ethers and Hardhat
+
+Run the following command to test the smart contract:
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
